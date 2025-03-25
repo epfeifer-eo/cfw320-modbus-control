@@ -8,8 +8,8 @@ Created on Tue Mar 25 09:34:01 2025
 import minimalmodbus
 import time
 
-vfd = minimalmodbus.Instrument('/dev/ttyUSB0', 1)
-vfd.serial.baudrate = 19200
+vfd = minimalmodbus.Instrument('/dev/ttyUSB1', 1)
+vfd.serial.baudrate = 19200 
 vfd.serial.bytesize = 8
 vfd.serial.parity = minimalmodbus.serial.PARITY_EVEN
 vfd.serial.stopbits = 1
