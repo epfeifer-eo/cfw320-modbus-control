@@ -7,7 +7,7 @@ Created on Fri Mar 21 13:13:30 2025
 import minimalmodbus
 import time
 
-vfd = minimalmodbus.Instrument('COM5', 1)
+vfd = minimalmodbus.Instrument('COM8', 1)
 vfd.serial.baudrate = 19200
 vfd.serial.bytesize = 8
 vfd.serial.parity = minimalmodbus.serial.PARITY_EVEN

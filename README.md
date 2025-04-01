@@ -1,6 +1,8 @@
 # cfw320-modbus-control
 Modbus control for VFD CFW320 via CUSB 
 
+****SET COM PORT***
+
 Speed Control:
 
 P683 value = (Desired Frequency X 8192)/(Maximum Frequency)
@@ -8,10 +10,9 @@ P683 value = (Desired Frequency X 8192)/(Maximum Frequency)
 
 Important Parameters:
 
-P221	9	Command source: USB (CUSB)
-P222	9	Speed reference: USB (CUSB)
-P268	6	Sets the command source (Start/Stop) to Modbus/Fieldbus
-P275	20	DO1 control via P695
+P221	9	Command source: USB 
+P222	9	Speed reference: USB 
+P224	2	Local Run/Stop Select: USB
 P308	1	Modbus address
 P310	1	Baud rate: 19200
 P311	1	Parity: Even
