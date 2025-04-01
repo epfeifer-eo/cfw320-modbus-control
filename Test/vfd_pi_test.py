@@ -24,4 +24,4 @@ vfd.write_register(682, 0x0017, functioncode=6)  # Start command
 
 time.sleep(10)  # Run 10 sec
 
-vfd.write_register(682, 0, functioncode=6) # Stop motor: write 0 to P682
+vfd.write_register(682, 0, functioncode=6) # Stop motor
