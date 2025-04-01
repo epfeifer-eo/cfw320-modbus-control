@@ -17,6 +17,6 @@ P310	1	Baud rate: 19200
 P311	1	Parity: Even
 P312	2	Modbus RTU Slave
 P403	60	Rated motor frequency (default)
-P682	23	Motor Start command
+P682	23	Motor Start command (0x0017)
 P682	0	Motor Stop command
 P683	x	Speed in Hz via 13-bit signed integer 
